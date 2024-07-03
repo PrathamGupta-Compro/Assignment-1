@@ -16,21 +16,32 @@
     align-self: flex-end;
     position: relative;
     top: 25px;
-    right: 25px;
+    right: 100px;
 }
 .paragraphs{
+    max-width: 900px;
     margin: 20px 50px;
     color: rgb(127, 125, 125);
     margin-top: 3.5rem;
     padding: 30px;
     font-size: 1.3em;
     align-self:center;
+    
 }
 .paragraphs p{
-    margin-bottom: 8px;
+    margin-bottom: 4px;
+    text-wrap: wrap;
 }
 #bottom-image{
     position: relative;
     bottom: 0px;
-    height: 300px;
+    height: 25%;
+}
+
+@media screen and (max-width: 992px) {
+    .highlighted-text{
+
+        align-self: flex-end;
+    }
+
 }

@@ -47,32 +47,34 @@
 }
 
 .paragraphs {
+    max-width: 85%;
     align-self: center;
     line-height: 1.6;
-    margin-top: 2em;
     font-size: 1.5em;
-    margin: 1em 2.5em;
-}
-.para-1 {
+    margin: 1.5em 2.5em;
+    color: rgb(127, 125, 125);
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
 }
-.para-1 img:first-child {
-    margin-right: 10px;
+.paragraphs img{
+    height: 7rem;
+}
+.paragraphs p{
+    text-wrap: wrap;
+}
+.para-text{
+    width: 70%;
 }
 figure {
+    align-self: flex-start;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    position: relative;
 }
 figure svg {
     width: 55px;
     height: 30px;
-    margin-left: 14px;
 }
 figure svg path {
     fill: none;
@@ -87,13 +89,30 @@ figcaption {
     padding: 2px 5px;
     margin-left: 5px;
 }
-.para-1-main{
-    display: flex;
 
+footer{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 3.5em;
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
 }
-.para-1-overflown-text{
-    align-self: flex-start;
-}
-.para-1-main p{
-    width: 60%;
+
+@media screen and (max-width: 992px) {
+    .chapter-intro-img{
+        position: relative;
+        top:0px;
+        left:0px;
+    }
+    .chapter-name{
+        font-size: 4em;
+    }
+    .paragraphs{
+        font-size: 1em;
+    }
+    .paragraphs img{
+        height: 60px;
+    }
+
 }
