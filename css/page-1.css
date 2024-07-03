@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.chapter-intro-img{
+    position: relative;
+    top: 0px;
+    left: 150px;
+    right: 0px;
+    height: 65%;
+
+}
+
+.chapter-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.chapter-number{
+    margin-top: 20px;
+    align-self: center;
+    color:rgb(103,190,199);
+}
+.chapter-name{
+    font-size: 8em;
+    color: rgb(96,80,109);
+    font-weight: bold;
+}
+.line{
+    width: 170px;
+    height: 3px;
+    background-color: rgb(96,80,109);
+    margin-top: 2em;
+    border-radius: 5px;
+}
+
+.paragraphs {
+    align-self: center;
+    line-height: 1.6;
+    margin-top: 2em;
+    font-size: 1.5em;
+    margin: 1em 2.5em;
+}
+.para-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.para-1 img:first-child {
+    margin-right: 10px;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+figure svg {
+    width: 55px;
+    height: 30px;
+    margin-left: 14px;
+}
+figure svg path {
+    fill: none;
+    stroke: red;
+    stroke-width: 30;
+}
+figcaption {
+    margin-top: 5px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 2px 5px;
+    margin-left: 5px;
+}
+.para-1-main{
+    display: flex;
+
+}
+.para-1-overflown-text{
+    align-self: flex-start;
+}
+.para-1-main p{
+    width: 60%;
+}
