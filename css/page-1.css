@@ -33,11 +33,22 @@
     align-self: center;
     color:rgb(103,190,199);
 }
-.chapter-name{
+.chapter-name {
     font-size: 8em;
-    color: rgb(96,80,109);
+    color: rgb(96, 80, 109);
     font-weight: bold;
+    text-align: center;
 }
+.chapter-name br {
+    content: "";
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.manor {
+    display: block;
+}
+
 .line{
     width: 170px;
     height: 3px;
