@@ -40,8 +40,14 @@
 
 @media screen and (max-width: 992px) {
     .highlighted-text{
-
         align-self: flex-end;
+        font-size: 1.5em;
     }
+}
 
+@media screen and(max-width: 390px){
+    .highlighted-text{
+        font-size: 1.2em;
+        right: 30px;
+    }
 }
