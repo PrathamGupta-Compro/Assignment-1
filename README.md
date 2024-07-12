@@ -2,7 +2,6 @@ HTML CSS Assignment
 
 ## PAGE-1
 
-![Screenshot 2024-07-03 174725](https://github.com/PrathamGupta-Compro/Assignment-1/assets/174440335/018f6c93-83a8-4090-b9ac-950bb393773f)
 ![Screenshot 2024-07-04 144907](https://github.com/PrathamGupta-Compro/Assignment-1/assets/174440335/a6d9f3d7-e114-4411-9cff-6e9008eaa341)
 ![image](https://github.com/PrathamGupta-Compro/Assignment-1/assets/174440335/ea1dc7e2-5b4d-4e81-b7ea-3951ae6fedf4)
 
