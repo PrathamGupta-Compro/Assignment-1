@@ -69,7 +69,7 @@
     display: flex;
 }
 .para-1 img{
-    height: 90px;
+    height: 50px;
     float: left;
     margin-right: 4px;
 }
@@ -97,14 +97,7 @@ figure svg path {
     stroke: red;
     stroke-width: 30;
 }
-figcaption {
-    margin-top: 5px;
-    background-color: red;
-    color: white;
-    font-size: 12px;
-    padding: 2px 5px;
-    margin-left: 5px;
-}
+
 
 footer{
     margin-top: 15px;

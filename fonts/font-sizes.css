@@ -1,0 +1,32 @@
+:root{
+    --base-font-size: 16;
+    --font-device-val: 1.4;
+    --font-12_5pt-doublepage: calc(
+        1rem * ((12.5 * var(--font-device-val)) / var(--base-font-size))
+      );
+    --font-52pt-doublepage: calc(
+        1rem * ((52 * var(--font-device-val)) / var(--base-font-size))
+    );
+    --font-13pt-doublepage: calc(
+        1rem * ((13 * var(--font-device-val)) / var(--base-font-size))
+    );
+}
+@media only screen and (max-width: 576px) {
+    :root {
+        --font-device-val: 1;
+    }
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    :root {
+        --font-device-val: 1.3px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    :root {
+        --font-device-val: 1.6px;
+    }
+}
