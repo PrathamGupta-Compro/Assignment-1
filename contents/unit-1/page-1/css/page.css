@@ -227,6 +227,8 @@ figcaption {
     }
     .left-page-content{
         width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .para-1 img{
         width: 4rem;
