@@ -11,22 +11,43 @@
         1rem * ((13 * var(--font-device-val)) / var(--base-font-size))
     );
 }
-@media only screen and (max-width: 576px) {
+/* @media only screen and (max-width: 576px) {
     :root {
         --font-device-val: 1;
     }
 }
-
-
 @media only screen and (min-width: 576px) and (max-width: 768px) {
     :root {
         --font-device-val: 1.3px;
     }
 }
-
-
 @media only screen and (min-width: 768px) and (max-width: 992px) {
     :root {
         --font-device-val: 1.6px;
     }
-}
+} */
+
+@media only screen and (max-width: 576px) {
+    :root {
+      --font-device-val: 1.55;
+    }
+  }
+  
+  /* Ipad devices (768px and up) */
+  @media only screen and (min-width: 576px) and (max-width: 768px) {
+    :root {
+      /*1.3*/
+      --font-device-val: 1.6;
+    }
+  }
+  
+  /* Ipad devices (768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    :root {
+      /*1.6*/
+      --font-device-val: 1.9;
+    }
+  }
+
+
+

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('./Roboto.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'abrilFatface';
+    src: url('./AbrilFatface-Regular.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ocrbstd';
+    src: url('./OCRBStd.otf')format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'caecilia';
+    src: url('./CaeciliaLTStd-Light.otf')format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

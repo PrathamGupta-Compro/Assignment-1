@@ -1,4 +1,5 @@
 @import url('../../../../fonts/font-sizes.css');
+@import url('../../../../fonts/font-families.css');
 
 *{
     margin: 0;
@@ -26,15 +27,12 @@ img{
 }
 main{
     width: 100vw;
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 .content-container{
-    width: 85%;
+    max-width: 85rem;
     display: flex;
     flex-direction: row;
 }
@@ -42,7 +40,7 @@ main{
     width: 50%;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100%;
 }
 .left-page-header{
     width: 100%;
@@ -57,17 +55,22 @@ main{
 }
 .chapter-number{
     font-size:var(--font-12_5pt-doublepage);
+    font-family: "ocrbstd";
     color:rgb(103,190,199);
     font-weight: 700;
+    letter-spacing: 0.5px;
 }
 .chapter-name{
     font-size: var(--font-52pt-doublepage);
     color: rgb(96, 80, 109);
-    font-weight: 800;
+    font-weight: 400;
+    font-family: "abrilFatface";
+    text-wrap: wrap;
+    word-break: break-all;
 }
 
 .line{
-    width: 170px;
+    width: 10.6rem;
     height: 3px;
     background-color: rgb(96,80,109);
     margin-top: 2em;
@@ -76,11 +79,16 @@ main{
 .left-page-content{
     margin-top:3rem;
     display: flex;
-    padding: 2rem 4rem;
+    padding: 1rem 3rem;
 }
 .left-page-content p{
     font-size:var(--font-13pt-doublepage);
-    line-height: 1.7rem;
+    line-height: 2rem;
+    font-family: "caecilia";
+    text-wrap: wrap;
+}
+.para-2, .para-3{
+    text-indent: 5%;
 }
 .para-1 img{
     float: left;
@@ -103,8 +111,13 @@ figcaption {
     padding-left: 4px;
 }
 .left-page-footer{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
     margin-top: 1rem;
     margin-left:3.5rem;
+    margin-bottom: 1rem;
     color: black;
     font-weight: bolder;
 }
@@ -117,6 +130,7 @@ figcaption {
     margin: 3rem;
     display: flex;
     justify-content: flex-end;
+    font-family:"roboto";
 }
 .chapter-intro-img{
     position: relative;
@@ -130,21 +144,24 @@ figcaption {
 }
 .right-page-content{
     font-size:var(--font-13pt-doublepage);
-    line-height: 1.5rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    font-family: "caecilia";
+    text-wrap: wrap;
+    text-indent: 10%;
+    line-height: 1.8rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     overflow-x: hidden;
+    flex-grow: 1;
 }
 .right-page-footer{
     position: relative;
-    transform: translateY(25%);
     bottom: 0;
     width: 100%;
     padding: 0;
     margin: 0;
     /* padding-left: 3rem;
-    padding-right: 3rem;
-    margin-bottom: 2rem; */
+    padding-right: 3rem; */
+    /* margin-bottom: 1rem;  */
 }
 .right-page-footer img{
     width:100%;
@@ -155,7 +172,11 @@ figcaption {
 
 @media screen and (min-width: 993px){
 
-    main{
+    .main{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+    .content-container{
         border-left: 1px solid var(--page-border-color);
         border-right: 1px solid var(--page-border-color);
     }
@@ -177,61 +198,69 @@ figcaption {
     .content-container{
         display: flex;
         flex-direction: column;
-        width: 80%;
+        min-width: 100%;
     }
     .page-10{
         width: 100%;
     }
     .page-11{
         width: 100%;
-    }
-    .page-11{
         padding-top: 24px;
     }
-  
   }
   
 
 @media screen and (max-width: 992px) and (min-width:769px){
 
-    main{
-        width: 100vw;
-        min-height: 100vh;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
     .chapter-name{
         font-size: var(--font-52pt-doublepage);
         color: rgb(96, 80, 109);
-        font-weight: 800;
+        font-weight: 400;
     }
+    .page-10{
+        min-height: 100%;
+    }
+    .content-container{
+        min-width: 100%;
+    }
+    .left-page-content{
+        flex-grow: 1;
+    }
+    
 }
 
 @media screen and (max-width: 768px) and (min-width: 577px){
     main{
-        width: 100vw;
-        min-height: 100vh;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        width: 100%;
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+    .right-page-content{
+        padding: 2rem 2rem;
     }
     
 }
 
 @media screen and (max-width: 576px) and (min-width: 360px){
+
     main{
-        width: 100vw;
-        padding: auto;
+        padding-left: 0;
+        padding-right: 0;
     }
     .content-container{
-        width: 100%;
-    }
-    .left-page-content{
-        width: 100%;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        min-width: 100%;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     .para-1 img{
         width: 4rem;
+    }
+    .chapter-intro-img{
+        position: relative;
+        right: 0;
+    }
+    .right-page-content{
+        padding: 2rem 2rem;
     }
     
 }
