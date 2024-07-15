@@ -1,26 +1,18 @@
 HTML CSS Assignment
 
-## PAGE-1
+## PAGE-10/11 (Desktop View)
 
-![Screenshot 2024-07-04 144907](https://github.com/PrathamGupta-Compro/Assignment-1/assets/174440335/a6d9f3d7-e114-4411-9cff-6e9008eaa341)
-![image](https://github.com/PrathamGupta-Compro/Assignment-1/assets/174440335/ea1dc7e2-5b4d-4e81-b7ea-3951ae6fedf4)
-
-## PAGE- 1 (Small Screen Device)
-![image](https://github.com/user-attachments/assets/79e8f8de-cb36-4699-b96b-f048cf54f09a)
-
-## PAGE - 1 (Tablet View)
-![image](https://github.com/user-attachments/assets/7af6a356-9fe2-47dd-a606-61b878743575)
+![image](https://github.com/user-attachments/assets/5150a255-8159-4d17-873f-d965b1c5bfab)
+![image](https://github.com/user-attachments/assets/4b42c2a0-6edb-4896-8203-74da8a79732d)
 
 
+## TABLET VIEW
 
+![image](https://github.com/user-attachments/assets/cfdd4d30-91e5-45a3-9b2a-54e0b4250c96)
+![image](https://github.com/user-attachments/assets/35371f6c-aa24-48c6-a3b5-962e78be8b5a)
 
+## MOBILE VIEW 
 
-## PAGE 2 
-![Screenshot 2024-07-03 174802](https://github.com/PrathamGupta-Compro/Assignment-1/assets/174440335/032f28ad-0be1-4f20-b30d-3728cf3d1d4b)
+![image](https://github.com/user-attachments/assets/9a690b04-d349-4eb0-887d-e9bbaf69a0dc)
+![image](https://github.com/user-attachments/assets/b424b04c-11b5-4a53-bd8b-ca0af0041203)
 
-## PAGE - 2 (Small Screen Device)
-![image](https://github.com/user-attachments/assets/8ddeb3c9-b23e-4690-977d-996db6be0786)
-![image](https://github.com/user-attachments/assets/7adf1328-2edc-48c8-b314-65cb40580863)
-
-## PAGE - 2 (Tablet View)
-![image](https://github.com/user-attachments/assets/3655bec5-1890-4032-a5ee-dabb689d655b)
