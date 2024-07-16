@@ -35,12 +35,15 @@ main{
     max-width: 85rem;
     display: flex;
     flex-direction: row;
+    
 }
 .page-10{
+    min-width: 31rem;
     width: 50%;
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    margin-bottom: 0;
 }
 .left-page-header{
     width: 100%;
@@ -80,6 +83,7 @@ main{
     margin-top:3rem;
     display: flex;
     padding: 1rem 3rem;
+    flex-grow: 1;
 }
 .left-page-content p{
     font-size:var(--font-13pt-doublepage);
@@ -115,13 +119,13 @@ figcaption {
     bottom: 0;
     display: flex;
     align-items: flex-end;
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-left:3.5rem;
-    margin-bottom: 1rem;
     color: black;
     font-weight: bolder;
 }
 .page-11{
+    min-width: 31rem;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -174,11 +178,12 @@ figcaption {
 
     .main{
         padding-left: 2.5rem;
-        padding-right: 2.5rem;
+        padding-right: 1rem;
     }
     .content-container{
         border-left: 1px solid var(--page-border-color);
         border-right: 1px solid var(--page-border-color);
+        flex-wrap: wrap;
     }
     main article:nth-of-type(1){
         border-right: 1px solid var(--page-border-color);
@@ -186,7 +191,8 @@ figcaption {
        
      main article:nth-of-type(2){
         border-left: 1px solid var(--page-border-color);
-     }   
+     }
+     
     
 }
 
@@ -198,13 +204,12 @@ figcaption {
     .content-container{
         display: flex;
         flex-direction: column;
-        min-width: 100%;
     }
     .page-10{
-        width: 100%;
+        min-width: 100%;
     }
     .page-11{
-        width: 100%;
+        min-width: 100%;
         padding-top: 24px;
     }
   }
@@ -259,8 +264,17 @@ figcaption {
         position: relative;
         right: 0;
     }
+    .left-page-content{
+        min-width: 90%;
+    }
     .right-page-content{
-        padding: 2rem 2rem;
+        padding: 2rem 1rem;
+    }
+    .chapter-name{
+        font-size: 3rem;
+    }
+    figure{
+        margin-right: 0.1rem;
     }
     
 }
