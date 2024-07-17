@@ -81,7 +81,9 @@ main {
   margin-top: 3rem;
   display: flex;
   padding: 1rem 3rem;
+  padding-right: 1rem;
   flex-grow: 1;
+  text-align: justify;
 }
 .left-page-content p {
   font-size: var(--font-13pt-doublepage);
@@ -96,6 +98,9 @@ main {
 .para-1 img {
   float: left;
   margin-right: 0.5rem;
+}
+figure{
+  margin-left:1rem;
 }
 figure svg {
   margin: 0 1rem;
@@ -116,6 +121,7 @@ figcaption {
 .left-page-footer {
   position: relative;
   bottom: 0;
+  padding-bottom: 2rem;
   display: flex;
   align-items: flex-end;
   margin-top: 3rem;
@@ -153,6 +159,7 @@ figcaption {
   line-height: 1.8rem;
   padding-left: 5rem;
   padding-right: 5rem;
+  text-align: justify;
   overflow-x: hidden;
   flex-grow: 1;
 }
@@ -162,6 +169,7 @@ figcaption {
   width: 100%;
   padding: 0;
   margin: 0;
+ 
   /* padding-left: 3rem;
     padding-right: 3rem; */
   /* margin-bottom: 1rem;  */
