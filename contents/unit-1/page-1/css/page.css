@@ -272,6 +272,7 @@ figcaption {
   }
   .left-page-content {
     min-width: 90%;
+    padding-right: 0.5rem;
   }
   .right-page-content {
     padding: 2rem 1rem;
