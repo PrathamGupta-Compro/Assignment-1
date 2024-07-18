@@ -194,6 +194,7 @@ figcaption {
   .page-10,
   .page-11 {
     max-width: 85rem;
+    flex: 1;
   }
   main article:nth-of-type(1) {
     border-right: 1px solid var(--page-border-color);
